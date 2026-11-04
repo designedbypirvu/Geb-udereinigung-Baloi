@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gebäudereinigung Baloi</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <div class="cursor-dot" id="dot"></div>
+    <div class="cursor-outline" id="outline"></div>
+
+    <nav>
+      <div class="logo"><img src="img/logo.png" href="index.html" alt="BALOI Logo" /></div>
+
+      <div class="hamburger hover-target" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="hover-target nav-link">Das Versprechen</a>
+        <a href="#services" class="hover-target nav-link">Spezialisierung</a>
+        <a href="#contact" class="hover-target nav-link">Kontakt</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="">
+          Sauber. <br />
+          <span>Perfekt.</span>
+          Zuverlässig.
+        </h1>
+        <p class="hero-desc">
+          Professionelle Reinigung mit 20 Jahren Erfahrung in Karlsruhe, Ettlingen und Umgebung.
+        </p>
+
+        <a href="#contact" class="hero-cta hover-target">
+          Kontaktieren Sie uns <span>→</span>
+        </a>
+      </div>
+
+      <div class="scroll-indicator">
+        <span class="scroll-text">Scrollen für mehr</span>
+      </div>
+
+      <div class="hero-img-container gs_reveal">
+        <img
+          src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Hero Image"
+        />
+      </div>
+    </header>
+
+    <section class="marquee">
+      <div class="marquee-track">
+        <h2>
+          • Langjährige Expertise • Zertifizierte Hygienestandards • Partner der
+          Stadtwerke Ettlingen • Professionalität in jeder Faser • Höchste
+          Qualitätsansprüche
+        </h2>
+        <h2>
+          • Langjährige Expertise • Zertifizierte Hygienestandards • Partner der
+          Stadtwerke Ettlingen • Professionalität in jeder Faser • Höchste
+          Qualitätsansprüche
+        </h2>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-text gs_reveal">
+        <span class="section-label">DAS VERSPRECHEN</span>
+        <h2>Wir schaffen Raum für Perfektion.</h2>
+        <p class="about-description">
+          Seit über 20 Jahren setzen wir Maßstäbe in der Region
+          <b>Karlsruhe</b>. Als langjähriger, zuverlässiger Partner der
+          <b>Stadtwerke Ettlingen</b>
+          haben wir unsere Expertise in anspruchsvollsten Bereichen
+          perfektioniert. Unsere spezialisierte Erfahrung in der
+          Schwimmbadreinigung steht für höchste Hygiene-Standards, die wir in
+          jedes Projekt übertragen, für makellose Ergebnisse, die man nicht nur
+          sieht, sondern spürt.
+        </p>
+      </div>
+      <div class="about-stats" id="stats-container">
+        <div class="stat-card gs_reveal">
+          <h3>20+</h3>
+          <p>Jahre Erfahrung</p>
+        </div>
+        <div class="stat-card gs_reveal">
+          <h3>100%</h3>
+          <p>Verlässlichkeit</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <span class="section-label gs_reveal">Spezialisierung</span>
+
+      <div class="services-list">
+        <div class="service-item hover-target gs_reveal">
+          <span class="service-num">01</span>
+          <h3>Büro- und Unterhaltsreinigung</h3>
+          <p>
+            Regelmäßige Pflege und Werterhalt für gewerbliche Objekte und
+            Praxisräume.
+          </p>
+        </div>
+        <div class="service-item hover-target gs_reveal">
+          <span class="service-num">02</span>
+          <h3>Professionelle Schwimmbadreinigung</h3>
+          <p>
+            Spezialisierte Reinigung und hygienische Instandhaltung von Pool-
+            und Badeanlagen.
+          </p>
+        </div>
+        <div class="service-item hover-target gs_reveal">
+          <span class="service-num">03</span>
+          <h3>Reinigung von Kitas und Schulen</h3>
+          <p>
+            Verantwortungsbewusste Reinigung für ein sicheres und sauberes
+            Bildungsumfeld.
+          </p>
+        </div>
+        <div class="service-item hover-target gs_reveal">
+          <span class="service-num">04</span>
+          <h3>Fitnessstudio-Reinigung</h3>
+          <p>
+            Spezifische Pflege für intensiv genutzte Trainingsflächen und
+            Sanitärbereiche.
+          </p>
+        </div>
+        <div class="service-item hover-target gs_reveal">
+          <span class="service-num">05</span>
+          <h3>Treppenhausreinigung</h3>
+          <p>
+            Gründliche Instandhaltung von Eingangsbereichen und Fluren in
+            Wohnanlagen.
+          </p>
+        </div>
+        <div class="service-item hover-target gs_reveal">
+          <span class="service-num">06</span>
+          <h3>Grund- und Sonderreinigung</h3>
+          <p>
+            Intensive Tiefenreinigung und spezielle Pflege für anspruchsvolle
+            Oberflächen.
+          </p>
+        </div>
+        <div class="service-item hover-target gs_reveal">
+          <span class="service-num">07</span>
+          <h3>Sanitärreinigung auf höchstem Niveau</h3>
+          <p>
+            Keimfreie Sauberkeit und Desinfektion von Nasszellen auf höchstem
+            Niveau.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="contact">
+      <div class="footer-content">
+        <span class="section-label gs_reveal" style="color: #999"
+          >Kontaktieren Sie uns</span
+        >
+        <h2 class="gs_reveal">
+          GEMEINSAM ZU IHREM<br /><span>REINHEITS-IDEAL.</span>
+        </h2>
+        <p class="footer-desc">
+          Präzision bis ins kleinste Detail, Beständigkeit in jedem Handgriff.
+        </p>
+
+        <a
+          href="mailto:reinigungsfirmabaloi@gmail.com"
+          class="mailto-btn hover-target"
+        >
+          Beginnen Sie ein Gespräch <span style="font-size: 1.5rem">→</span>
+        </a>
+      </div>
+
+      <div class="footer-info">
+        <div class="footer-col">
+          <h4>Kontaktdaten</h4>
+          <a href="mailto:reinigungsfirmabaloi@gmail.com" class="hover-target"
+            >reinigungsfirmabaloi@gmail.com</a
+          >
+          <a href="tel:+49 176 43303623" class="hover-target"
+            >+49 176 43303623</a
+          >
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Albtalstraße+16+76359+Marxzell"
+            target="_blank"
+            class="hover-target"
+            >Albtalstraße 16, 76359, Marxzell</a
+          >
+        </div>
+
+        <div class="footer-col">
+          <h4>Soziale Netzwerke</h4>
+          <a href="https://instagram.com" target="_blank" class="hover-target"
+            >Instagram</a
+          >
+          <a href="https://linkedin.com" target="_blank" class="hover-target"
+            >LinkedIn</a
+          >
+          <a href="https://facebook.com" target="_blank" class="hover-target"
+            >Facebook</a
+          >
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="#about" class="hover-target nav-link">Das Versprechen</a>
+          <a href="#services" class="hover-target nav-link">Spezialisierung</a>
+          <a href="#contact" class="hover-target nav-link">Kontakt</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <img src="img/logoblk.png" alt="BALOI Logo Black" class="footer-logo" />
+        <p class="copyright">© 2026 Gebäudereinigung Baloi</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
